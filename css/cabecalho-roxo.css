@@ -1,0 +1,60 @@
+header>ul {
+    padding-top: 33px;
+}
+
+header>ul>li>a {
+    color: #e231ff;
+}
+
+header>ul>li>a:active,
+a:visited {
+    color: #e231ff;
+}
+
+header>ul>li>a:hover {
+    color: #e231ff;
+}
+
+header>ul>li>ul>li>a {
+    color: white;
+}
+
+header>ul>li>ul>li>a:visited {
+    color: white;
+}
+
+header>ul>li>ul>li>a:active {
+    color: white;
+}
+
+.logoroxo {
+    background: url(../imagens/Logos-Extendidos/logo-extendido-roxo.png) no-repeat top center;
+    background-size: auto 90px;
+    height: 90px;
+    width: 490px;
+    margin-top: 10px;
+}
+
+.nav {
+    --bs-nav-link-color: #e231ff;
+    --bs-nav-link-hover-color: #811292;
+}
+
+.dropdown-menu {
+    --bs-dropdown-bg: #e231ff;
+    --bs-dropdown-link-color: white;
+    --bs-dropdown-link-hover-color: #811292;
+    --bs-dropdown-link-hover-bg: white;
+    --bs-dropdown-link-active-color: white;
+    --bs-dropdown-link-active-bg: #811292;
+}
+
+@media (max-width: 821px) {
+    .logoroxo {
+        background: url(../imagens/Logos-Pequenos/logo-pequeno-roxo.png) no-repeat top center;
+        background-size: auto 90px;
+        height: 90px;
+        width: 120px;
+        margin-top: 10px;
+    }
+}

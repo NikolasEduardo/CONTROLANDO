@@ -1,0 +1,60 @@
+header>ul {
+    padding-top: 33px;
+}
+
+header>ul>li>a {
+    color: #00FF19;
+}
+
+header>ul>li>a:active,
+a:visited {
+    color: #00FF19;
+}
+
+header>ul>li>a:hover {
+    color: #00FF19;
+}
+
+header>ul>li>ul>li>a {
+    color: black;
+}
+
+header>ul>li>ul>li>a:visited {
+    color: black;
+}
+
+header>ul>li>ul>li>a:active {
+    color: black;
+}
+
+.logoverde {
+    background: url(../imagens/Logos-Extendidos/logo-extendido-verde.png) no-repeat top center;
+    background-size: auto 90px;
+    height: 90px;
+    width: 490px;
+    margin-top: 10px;
+}
+
+.nav {
+    --bs-nav-link-color: #00FF19;
+    --bs-nav-link-hover-color: #00720b;
+}
+
+.dropdown-menu {
+    --bs-dropdown-bg: #00FF19;
+    --bs-dropdown-link-color: black;
+    --bs-dropdown-link-hover-color: #00720b;
+    --bs-dropdown-link-hover-bg: white;
+    --bs-dropdown-link-active-color: white;
+    --bs-dropdown-link-active-bg: #00720b;
+}
+
+@media (max-width: 821px) {
+    .logoverde {
+        background: url(../imagens/Logos-Pequenos/logo-pequeno-verde.png) no-repeat top center;
+        background-size: auto 90px;
+        height: 90px;
+        width: 120px;
+        margin-top: 10px;
+    }
+}

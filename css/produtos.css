@@ -1,0 +1,122 @@
+main {
+    padding-top: 140px;
+    height: 1400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-outline-success {
+    --bs-btn-color: white;
+    --bs-btn-border-color: white;
+    --bs-btn-hover-color: #e231ff;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: #e231ff;
+}
+
+div.fundo {
+    background: rgba(33, 33, 33, 0.904);
+    width: 80%;
+    height: 1215px;
+    border-radius: 25px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+div.produtos {
+    width: 70%;
+    height: 100%;
+    padding: 15px;
+}
+
+body.azul>main>div>div.produtos, body.ciano>main>div>div.produtos, body.verde>main>div>div.produtos {
+    width: 50%;
+}
+
+div>p.titulo {
+    color: white;
+    font-size: xx-large;
+    margin-left: 50px;
+}
+
+div#produto {
+    width: 100%;
+    height: 250px;
+    border: 5px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+div#imagem {
+    width: 220px;
+    height: 220px;
+}
+
+div#produto>div>img {
+    height: 220px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+div#descricao {
+    width: 100%;
+}
+
+div#descricaodetalhes {
+    height: 181px;
+}
+
+div#descricao>div {
+    width: 100%;
+}
+
+div#produto>div>div>p.nomeproduto {
+    color: white;
+    font-size: x-large;
+    margin-left: 15px;
+}
+
+div#produto>div>div>p.detalhesproduto {
+    color: white;
+    margin-left: 25px;
+    margin-top: -10px;
+}
+
+div#botao > a {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    text-decoration: none;
+}
+
+div#botao {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 15px;
+}
+
+div.busca {
+    width: 30%;
+    height: 500px;
+    padding: 15px;
+}
+
+div.busca>div {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border: 5px solid white;
+    border-radius: 25px;
+    color: white;
+}
+
+input#preco {
+    border-radius: 15px;
+    border: #e231ff solid 1px;
+}

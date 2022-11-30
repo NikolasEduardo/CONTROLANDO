@@ -1,0 +1,60 @@
+header>ul {
+    padding-top: 33px;
+}
+
+header>ul>li>a {
+    color: #0500FF;
+}
+
+header>ul>li>a:active,
+a:visited {
+    color: #0500FF;
+}
+
+header>ul>li>a:hover {
+    color: #0500FF;
+}
+
+header>ul>li>ul>li>a {
+    color: white;
+}
+
+header>ul>li>ul>li>a:visited {
+    color: white;
+}
+
+header>ul>li>ul>li>a:active {
+    color: white;
+}
+
+.logoazul {
+    background: url(../imagens/Logos-Extendidos/logo-extendido-azul.png) no-repeat top center;
+    background-size: auto 90px;
+    height: 90px;
+    width: 490px;
+    margin-top: 10px;
+}
+
+.nav {
+    --bs-nav-link-color: #0500FF;
+    --bs-nav-link-hover-color: #020077;
+}
+
+.dropdown-menu {
+    --bs-dropdown-bg: #0500FF;
+    --bs-dropdown-link-color: white;
+    --bs-dropdown-link-hover-color: #020077;
+    --bs-dropdown-link-hover-bg: white;
+    --bs-dropdown-link-active-color: white;
+    --bs-dropdown-link-active-bg: #020077;
+}
+
+@media (max-width: 821px) {
+    .logoazul {
+        background: url(../imagens/Logos-Pequenos/logo-pequeno-azul.png) no-repeat top center;
+        background-size: auto 90px;
+        height: 90px;
+        width: 120px;
+        margin-top: 10px;
+    }
+}

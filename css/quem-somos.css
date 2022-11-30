@@ -1,0 +1,196 @@
+main {
+    padding-top: 140px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main>div {
+    background: rgba(33, 33, 33, 0.904);
+    width: 80%;
+    height: 800px;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+main>div>div {
+    width: 100%;
+    height: 33%;
+    display: flex;
+}
+
+main>div>div>div#paragrafo-esquerdo {
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    border-right: solid white 2px;
+}
+
+main>div>div>div#paragrafo-direito {
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    border-left: solid white 2px;
+}
+
+main>div>div#redes-sociais {
+    width: 100%;
+    height: 77%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main>div>div>div.socialcima {
+    width: 100%;
+    height: 266px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main>div>div>div>div.instagram {
+    width: 50%;
+    height: 266px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main>div>div>div>div.twitter {
+    width: 50%;
+    height: 266px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main>div>div>div.youtube {
+    width: 50%;
+    height: 266px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.socialcima>div>a>img {
+    height: 260px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+div.socialcima>div>a:hover>img {
+    filter: drop-shadow(0px 0px 20px white);
+}
+
+main>div>div>div.youtube>a>img {
+    height: 260px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+main>div>div>div.youtube>a:hover>img {
+    filter: drop-shadow(0px 0px 20px white);
+}
+
+p {
+    color: white;
+    font-size: 100%;
+}
+
+h3 {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+input {
+    border: white solid 1px;
+    border-radius: 10px;
+    padding: 2px 5px;
+    margin: 2px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+input:hover {
+    filter: drop-shadow(0px 0px 5px white);
+    color: white;
+    background-color: black;
+}
+
+@media (max-width: 1335px) {
+    div.socialcima>div>a>img {
+        height: 240px;
+    }
+
+    main>div>div>div.youtube>a>img {
+        height: 240px;
+    }
+}
+
+@media (max-width: 1235px) {
+    div.socialcima>div>a>img {
+        height: 200px;
+    }
+
+    main>div>div>div.youtube>a>img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 1040px) {
+    main>div>div {
+        height: 50%;
+    }
+
+    main>div>div#redes-sociais {
+        height: 50%;
+    }
+
+    div.socialcima>div>a>img {
+        height: 120px;
+    }
+
+    main>div>div>div.youtube>a>img {
+        height: 118px;
+    }
+}
+
+@media (max-width: 640px) {
+    main {
+        height: 1100px;
+    }
+
+    main>div {
+        height: 1000px;
+    }
+
+    main>div>div {
+        height: 60%;
+    }
+
+    main>div>div#redes-sociais {
+        height: 40%;
+    }
+
+    div.socialcima>div>a>img {
+        height: 90px;
+    }
+
+    main>div>div>div.youtube>a>img {
+        height: 90px;
+    }
+    input#comprimir {
+        width: 180px;
+    }
+}

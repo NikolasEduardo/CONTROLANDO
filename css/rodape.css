@@ -1,0 +1,63 @@
+footer {
+    background-color: rgba(0, 0, 0, 0.904);
+    height: 200px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+body.roxo>footer>.logo-footer {
+    background: url(../imagens/Logos-Pequenos/logo-pequeno-roxo.png) no-repeat center center;
+    background-size: auto 90px;
+}
+body.azul>footer>.logo-footer {
+    background: url(../imagens/Logos-Pequenos/logo-pequeno-azul.png) no-repeat center center;
+    background-size: auto 90px;
+}
+body.ciano>footer>.logo-footer {
+    background: url(../imagens/Logos-Pequenos/logo-pequeno-ciano.png) no-repeat center center;
+    background-size: auto 90px;
+}
+body.verde>footer>.logo-footer {
+    background: url(../imagens/Logos-Pequenos/logo-pequeno-verde.png) no-repeat center center;
+    background-size: auto 90px;
+}
+
+body>footer>div.logo-footer {
+    height: 200px;
+    width: 110px;
+    margin-right: 30px;
+}
+
+body.roxo > footer > p {
+    color: #e231ff;
+}
+body.azul > footer > p {
+    color: #4744ff;
+}
+body.verde > footer > p {
+    color: #00FF19;
+}
+body.ciano > footer > p {
+    color: #00F0FF;
+}
+footer>p {
+    text-align: right;
+    margin: auto 0;
+}
+
+@media (max-width: 700px) {
+    body>footer>div.logo-footer {
+        height: 0px;
+        width: 0px;
+        margin-right: 0px;
+    }
+
+    footer>p {
+        font-size: medium;
+    }
+}
