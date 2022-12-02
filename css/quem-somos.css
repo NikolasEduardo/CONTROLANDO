@@ -194,3 +194,42 @@ input:hover {
         width: 180px;
     }
 }
+
+@media (max-width: 499px) {
+    main {
+        height: 1200px;
+    }
+
+    main>div {
+        height: 1000px;
+    }
+
+    main>div>div {
+        height: 60%;
+    }
+
+    main>div>div#redes-sociais {
+        height: 50%;
+        padding-top: 160px;
+    }
+
+    div.socialcima>div>a>img {
+        height: 70px;
+    }
+
+    main>div>div>div.youtube>a>img {
+        height: 150px;
+    }
+    input#comprimir {
+        width: 120px;
+    }
+    main>div>div>div.socialcima {
+        height: 10px;
+    }
+    main>div>div>div.youtube {
+        width: 50%;
+        height: 100px;
+        padding: 15px;
+        padding-top: 120px;
+    }
+}

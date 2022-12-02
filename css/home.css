@@ -1,6 +1,6 @@
 main {
     padding-top: 140px;
-    height: 1000px;
+    height: 1500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +9,7 @@ main {
 
 main>div.imagem {
     width: 100%;
-    height: 300px;
+    height: 550px;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@ main>div.imagem>img {
 main>div.fundo {
     background: rgba(33, 33, 33, 0.904);
     width: 80%;
-    height: 500px;
+    height: 750px;
     border-radius: 25px;
 }
 
@@ -35,7 +35,7 @@ main>div>div {
 }
 
 main>div>div>a>img {
-    width: 370px;
+    width: 600px;
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
 }
@@ -48,7 +48,7 @@ main>div>div>a>img {
     float: right;
 }
 a:hover > img {
-    width: 420px;
+    width: 650px;
 }
 
 a>img#brilho-roxo {
@@ -67,37 +67,142 @@ a>img#brilho-roxo {
     filter: drop-shadow(0px 0px 5px #00F0FF);
 }
 
-
-@media (max-width: 1050px) {
+@media (max-width: 1650px) {
+    main {
+        height: 1600px;
+    }
+    main>div.imagem {
+        height: 450px;
+    }
+    main>div.fundo {
+        height: 700px;
+    }
+    main>div>div>a>img {
+        width: 450px;
+    }
+    a:hover > img {
+        width: 500px;
+    }
+}
+@media (max-width: 1300px) {
+    main {
+        height: 1050px;
+    }
+    main>div.imagem {
+        height: 350px;
+    }
+    main>div.fundo {
+        height: 550px;
+    }
+    main>div>div>a>img {
+        width: 400px;
+    }
+    a:hover > img {
+        width: 450px;
+    }
+}
+@media (max-width: 1150px) {
+    main {
+        height: 1000px;
+    }
+    main>div.imagem {
+        height: 300px;
+    }
+    main>div.fundo {
+        height: 500px;
+    }
+    main>div>div>a>img {
+        width: 350px;
+    }
+    a:hover > img {
+        width: 400px;
+    }
+}
+@media (max-width: 1020px) {
+    main {
+        height: 1700px;
+    }
+    main>div.imagem {
+        height: 250px;
+    }
+    main>div.fundo {
+        height: 1250px;
+        width: 70%;
+    }
+    main>div>div>a>img {
+        width: 500px;
+    }
+    a:hover > img {
+        width: 550px;
+    }
+    main>div>div {
+        width: 100%;
+        height: 25%;
+    }
+}
+@media (max-width: 800px) {
+    main {
+        height: 1400px;
+    }
+    main>div.imagem {
+        height: 180px;
+    }
+    main>div.fundo {
+        height: 1050px;
+        width: 60%;
+    }
+    main>div>div>a>img {
+        width: 350px;
+    }
+    a:hover > img {
+        width: 400px;
+    }
+    main>div>div {
+        width: 100%;
+        height: 25%;
+    }
+}
+@media (max-width: 690px) {
+    main {
+        height: 900px;
+    }
+    main>div.imagem {
+        height: 150px;
+    }
+    main>div.fundo {
+        height: 600px;
+        width: 60%;
+    }
     main>div>div>a>img {
         width: 250px;
     }
     a:hover > img {
         width: 300px;
     }
-    main>div.imagem{
-        height: 250px;
-    }
-}
-
-@media (max-width: 800px) {
-    main {
-        height: 1000px;
-    }
-    main>div.imagem {
-        height: 150px;
-    }
-    main>div.fundo {
-        height: 700px;
-    }
     main>div>div {
         width: 100%;
         height: 25%;
     }
+}
+@media (max-width: 600px) {
+    main {
+        height: 750px;
+    }
+    main>div.imagem {
+        height: 100px;
+    }
+    main>div.fundo {
+        height: 500px;
+        width: 65%;
+    }
     main>div>div>a>img {
-        width: 290px;
+        width: 200px;
     }
     a:hover > img {
-        width: 340px;
+        width: 250px;
+    }
+    main>div>div {
+        width: 100%;
+        height: 25%;
     }
 }

@@ -10,6 +10,10 @@ footer {
     margin-top: 50px;
 }
 
+body.azul > footer {
+    background-color: rgba(0, 0, 0, 0.726);
+}
+
 body.roxo>footer>.logo-footer {
     background: url(../imagens/Logos-Pequenos/logo-pequeno-roxo.png) no-repeat center center;
     background-size: auto 90px;
